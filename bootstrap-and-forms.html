@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <title>bootstrap and forms</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-3">Forms</h1>
+      <form action="#nowhere">
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="email"class="form-label">Email</label>
+            <input type="email" class="form-control" id="email"placeholder="Email"/>
+          </div>
+          <div class="col-auto">
+            <label for="password"class="form-label">Password</label>
+            <input type="password"class="form-control" id="password"placeholder="password"/>
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInLine" class="form-text">Must be 8-20 characters long.</span>
+        </div>
+          </div>
+        <div class="row g-3">
+        <div class="col-mb-3">
+          <label  class="form-label" for="address">Address</label>
+          <input type="text"class="form-control" id="address"placeholder="14 Chicken Range Str"/>
+        </div>
+      </div>
+        <div class="mb-3">
+          <label class="form-label" for="state">State</label>
+          <select class="form-control" name="sate" id="state">
+            <option value="Pl">Plovdiv</option>
+            <option value="Pv">Pleven</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input mt-0" type="checkbox"value="" aria-label="Checkbox for following text input"id="Register"/>
+            <label for="defaultCheck1" class="form-check-label">Sign me up</label>
+        </div></div>
+       <button type="button" class="btn btn-success" role="button">Register</button>
+      </form>
+    </div>
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
